@@ -1,0 +1,173 @@
+@font-face {
+  font-family: "The Neue Black";
+  src: url(./TheNeue-Black.woff2) format("woff2"),
+    url(./TheNeue-Black.woff) format("woff");
+  font-weight: normal;
+  font-style: cursive;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+section {
+  border: 1px solid black;
+  font-size: 22px;
+  height: 1054px;
+  width: 814px;
+}
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 22px;
+  padding: 0 4px 0;
+  outline: none;
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 80px;
+  width: 100%;
+}
+h1,
+h2 {
+  font-family: "The Neue Black", cursive;
+}
+h1 {
+  font-size: 66.7px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.heading p {
+  font-size: 19px;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin: 0 0 20px;
+  text-align: center;
+}
+.white-text {
+  background-color: gray;
+  text-align: center;
+  width: 100%;
+}
+.white-text h2 {
+  color: white;
+  font-size: 29px;
+  padding: 6px 0;
+}
+h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.info {
+  margin-top: 35px;
+}
+.info .bold {
+  font-weight: 900;
+}
+.info span {
+  font-size: 15px;
+  font-weight: 400;
+}
+.info .underlined {
+  text-decoration: underline;
+}
+.form {
+  width: 91%;
+}
+.bold {
+  font-weight: 600;
+}
+.two-entries,
+.three-entries,
+.prices-box,
+.price,
+.price-group {
+  display: flex;
+}
+.two-entries input {
+  width: 19rem;
+}
+#first-name,
+#last-name {
+  width: 45rem;
+}
+#facility,
+#address {
+  width: 46rem;
+}
+#bunk {
+  width: 17rem;
+}
+#zip {
+  width: 10rem;
+}
+.form-group {
+  margin-top: 1rem;
+}
+label {
+  margin-right: 10px;
+}
+
+.three-entries .form-group {
+  display: flex;
+  margin-right: 0.3rem 4rem 0 0;
+}
+.three-entries input {
+  width: 16rem;
+}
+svg {
+  color: black;
+  fill: black;
+}
+.price {
+  position: relative;
+}
+.price span {
+  position: absolute;
+  left: 50px;
+  /* border: 1px solid gold; */
+  font-size: 13px;
+  font-weight: 400;
+  padding: 4px 0 0;
+  margin-bottom: 0;
+  width: 150px;
+}
+.prices-box {
+  justify-content: space-between;
+  margin-top: 35px;
+  width: 91%;
+}
+.shifted {
+  align-self: flex-start;
+}
+.price-group {
+  font-size: 18px;
+  justify-content: space-between;
+  width: 96%;
+}
+.inline {
+  text-align: center;
+}
+.inline input {
+  margin-right: 0.5rem;
+}
+.small-text {
+  font-size: 14px;
+  margin-top: 22px;
+  width: 92%;
+}

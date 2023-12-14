@@ -1,0 +1,17 @@
+{
+  "name": "laflosd",
+  "version": "1.0.0",
+  "description": "my portfolio website",
+  "main": ".htmlnanorc.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "developer"
+  ],
+  "author": "Olayemi Abunsango",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
